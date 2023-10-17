@@ -17,8 +17,8 @@ public class Main {
         broadcastDateMap.put("ウルトラマンティガ", LocalDate.of(1996, 9, 7));
         broadcastDateMap.put("ウルトラマンタロウ", LocalDate.of(1973, 4, 3));
 
-        LocalDate firstHeiseiDate = LocalDate.of(1989, 1, 8);
         LocalDate firstShowaDate = LocalDate.of(1926, 12, 25);
+        LocalDate firstHeiseiDate = LocalDate.of(1989, 1, 8);
         LocalDate firstReiwaDate = LocalDate.of(2019, 5, 1);
 
         // 昭和の日程のみフィルタバリュー
