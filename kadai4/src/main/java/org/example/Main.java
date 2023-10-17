@@ -21,7 +21,7 @@ public class Main {
         LocalDate firstHeiseiDate = LocalDate.of(1989, 1, 8);
         LocalDate firstReiwaDate = LocalDate.of(2019, 5, 1);
 
-        // 昭和の日程のみフィルタバリュー
+        // 昭和の日程のみフィルタ
         Map<String, LocalDate> showaBroadcastDate = broadcastDateMap
                 .entrySet()//Map内のエントリー（キーとバリューの両方）を取得
                 .stream()
